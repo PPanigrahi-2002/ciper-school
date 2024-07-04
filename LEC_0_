@@ -1,0 +1,36 @@
+COURSE STRUCTURE
+
+1. Introduction to Data Science
+   This section provides a comprehensive overview of data science, emphasizing its significance in today's data-driven world. It introduces the data science workflow, outlining the key steps involved in a typical data science project. Additionally, it highlights the essential skills and tools that are crucial for anyone aspiring to become a data scientist.
+
+2. Setting Up Your Environment
+   In this module, you will learn how to set up your data science environment. It begins with an introduction to Anaconda, a popular distribution for Python and R programming, and guides you through its installation and management of Python environments. The module also covers Google Colab, a cloud-based platform that allows you to write and execute Python code in a web-based notebook. Furthermore, it introduces version control with Git and GitLab, explaining the basics of version control, how to use Git for project management, and how to collaborate using GitLab.
+
+3. Advanced Excel for Data Analysis
+   This section delves into advanced Excel techniques for data analysis. It covers complex formulas and functions that can help you manipulate and analyze data more effectively. You will also learn about data cleaning and preparation techniques, which are essential for ensuring the accuracy and reliability of your data. The module includes lessons on Pivot Tables, PivotCharts, and Power Query, which are powerful tools for summarizing and visualizing data. Additionally, it introduces Excel macros and VBA for automation, enabling you to automate repetitive tasks and streamline your workflow.
+
+4. Python for Data Science
+   In this module, you will gain a solid foundation in Python programming, which is a critical skill for data scientists. It covers the fundamentals of Python, including variables, data types, conditionals, and loops. You will also learn about functions, lambda expressions, and error handling. The module includes lessons on working with data using Pandas, a powerful data manipulation library, and NumPy, a library for numerical computing. These tools will enable you to perform data manipulation and analysis efficiently.
+
+5. Data Visualization
+   This section focuses on the principles of data visualization, which is the art of presenting data in a visual format that is easy to understand and interpret. It introduces Matplotlib and Seaborn, two popular Python libraries for creating static and interactive visualizations. You will also learn how to create interactive visualizations using Plotly, a library that allows you to build interactive plots and dashboards.
+
+6. Introduction to Power BI
+   In this module, you will learn how to use Power BI, a business analytics tool that allows you to visualize and share insights from your data. It covers the basics of getting started with Power BI Desktop, including data modeling and DAX (Data Analysis Expressions) basics. You will also learn how to create dashboards and reports, and how to use the Power BI Service for sharing and collaboration.
+
+7. Data Preprocessing Concepts
+   This section covers essential data preprocessing concepts, which are crucial for preparing your data for analysis. It includes lessons on data cleaning and normalization, handling missing data, and feature engineering and selection. These techniques will help you ensure that your data is clean, consistent, and ready for analysis.
+
+8. Statistics Deep Dive
+   In this module, you will dive deep into advanced statistical measures and distributions. It covers correlation and regression analysis, which are essential for understanding relationships between variables. You will also learn about hypothesis testing and inferential statistics, which are important for making data-driven decisions and drawing conclusions from your data.
+
+9. Major Machine Learning Algorithms
+   This section introduces you to the major machine learning algorithms used in data science. It covers supervised learning algorithms such as linear regression, logistic regression, decision trees, random forests, and support vector machines (SVMs). You will also learn about unsupervised learning algorithms such as k-means clustering, hierarchical clustering, and principal component analysis (PCA). Additionally, the module provides an introduction to neural networks and deep learning, which are advanced techniques for building complex models.
+
+PROJECTS
+
+Project 1: Building a Chatbot
+In this project, you will learn about natural language processing (NLP) and chatbot frameworks. You will design and train a simple chatbot, and integrate it with Python or web applications. This project will give you hands-on experience in building and deploying a chatbot.
+
+Project 2: Image Classification Project
+This project focuses on image processing and computer vision. You will learn about convolutional neural networks (CNNs) and how to build and train a simple image classifier. The project also covers evaluating model performance, which is essential for ensuring that your model is accurate and reliable.
