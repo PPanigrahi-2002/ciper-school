@@ -1,0 +1,19 @@
+Lect 3 - Key Skills And Tools In Data Science
+
+In the data domain, there are several key roles, each requiring a unique set of skills and expertise. 
+
+Firstly, the role of a Data Analyst is crucial. These professionals are adept at using SQL and Excel to manage and analyze data. They are skilled in data visualization techniques, which allow them to present data insights in a comprehensible manner. Additionally, they possess a foundational understanding of statistical concepts, enabling them to interpret data accurately.
+
+Next, we have Data Scientists, who are often considered the backbone of data-driven decision-making. They are proficient in programming languages such as Python and R, which they use to develop machine learning models. Their expertise extends to advanced statistical methods and data wrangling techniques, allowing them to clean and prepare data for analysis effectively.
+
+Machine Learning Engineers focus on creating and optimizing algorithms that enable machines to learn from data. They have a deep understanding of deep learning techniques and are skilled in programming and software engineering. Their role involves ensuring that machine learning models are efficient and scalable.
+
+Data Engineers are responsible for the infrastructure that supports data collection, storage, and processing. They manage databases and design ETL (Extract, Transform, Load) processes to ensure data flows smoothly through the system. They are also knowledgeable about big data technologies and are adept at building robust data pipelines.
+
+Business Intelligence Analysts bridge the gap between data and business strategy. They analyze data to provide actionable insights using BI tools like Tableau and Power BI. Their business acumen allows them to understand the implications of data trends and advise on strategic decisions.
+
+When it comes to programming languages, Python and R are the most commonly used in the data science field. Python is favored for its simplicity and versatility, while R is renowned for its statistical capabilities.
+
+Several tools are essential for data science professionals. Anaconda is a popular distribution that simplifies package management and deployment. Google Colab and Jupyter notebooks are widely used for interactive coding and sharing of code. Git version control is crucial for managing changes in code and collaborating with other developers.
+
+In summary, the data domain encompasses a variety of roles, each with specific skill sets and tools that are essential for effective data management and analysis.
