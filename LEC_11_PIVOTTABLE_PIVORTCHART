@@ -1,0 +1,39 @@
+Pivot Tables:
+•  A Pivot Table is an Excel feature that allows you to sunmmarize and analyze large datasets by organizing and rearranging data.
+•  It provides an interactive way to calculate, aggregate, and analyze data.
+
+Operations:
+•  Summarizing Data: Sum, average, count, min, max, etc.
+•  Filtering Data: Date, Product, Region Filters.
+•  Grouping Data: By dates (monthly, quaterly), products, regions.
+•  Calculating Percentages: Percentage of Total, Percentage Change.
+
+***********************************************************************
+
+Pivot Charts:
+•  A  PivotChart is an extension of a PivotTable that provides a graphical representation of the data summarized in the PivotTable.                   
+•  It allowa for dynamic data visualization.
+
+Operations:
+•  Changing Chart Types: Column, bar, line, pie, etc.
+•  Customizing Chart Elements: Titles, Legends, Data Labels, colours.
+•  Driling Down Data: Interactively explore data points in detail.
+
+**************************************************************************
+
+Power Query:
+•  Power Query is a data connection technology that enables you to discover, connect, combine, and redefine data across a wide varity of sources.
+•  It provides an easy way to import, clean, and transform data before analyzing it in Excel.
+
+Operations: 
+•  Merging Queries: Combine data from different tables or sources.
+•  Appending Queries: Stack data from similar tables.
+•  Unpivoting Columns: Transform columns into rows for better analysis.
+•  Creating Calculated Columns: Add custom calculations and transformations.
+
+***************************************************************************
+
+Sales Analysis:
+•  PivotTables: Summarize total sales, quantity, and profit by region, product, and date.
+•  PivotCharts: Visualize sales trends and comparisons across different regions and products.
+•  Power Query: Clean and transform sales data from various sources before analysis.
