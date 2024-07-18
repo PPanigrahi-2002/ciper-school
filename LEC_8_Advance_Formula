@@ -1,0 +1,20 @@
+Lecture 8 - Advanced Formulas And Functions
+
+How to Write a Formula in Excel?
+
+To begin writing a formula in Excel, you first need to select the cell where you want the result to appear. Once the cell is selected, you should enter an equals sign (=) to indicate to Excel that you are about to input a formula. For instance, if you are working with the four times table, you would start by typing the formula in cell E3. Specifically, you would enter =A3*C3 into cell E3. After typing the formula, press the enter key to execute it. 
+
+Next, to apply this formula to a range of cells, you can use the fill handle. Click on cell E3 to select it, then drag the small square at the bottom right corner of the cell down to cell E12. This action will copy the formula from E3 to all the cells in the range E3:E12, adjusting the cell references accordingly. As a result, the formula will be applied to each cell in the selected range, providing you with the desired calculations.
+
+Functions Covered:
+
+  • SUM
+  • AVERAGE
+  • MAX
+  • MIN
+  • XLOOKUP
+  • SUMPRODUCT
+  • OFFSET
+  • QUERY
+
+By mastering these functions, you will be able to perform a wide variety of calculations and data manipulations in Excel, enhancing your ability to analyze and interpret data effectively.
