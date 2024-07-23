@@ -1,35 +1,36 @@
-What is Python ?
-• Python is a popular programming language.
-• It was created by Guido van Rossum, and released in 1991.
-• It is used for:
-  • web development (server-side),
-  • software development,
-  • mathematics,
-  • system scripting.
-  • Data Science
 
-Why Python?
-• Python works on different platforms (Windows, Mac, Linux, Raspberry Pi, etc).
-• Python has a simple syntax similar to the English language.
-• Python has syntax that allows developers to write programs with fewer lines than some other programming languages.
+# What is Python ?
+# • Python is a popular programming language.
+# • It was created by Guido van Rossum, and released in 1991.
+# • It is used for:
+#   • web development (server-side),
+#   • software development,
+#   • mathematics,
+#   • system scripting.
+#   • Data Science
 
-********************************************************************
+# Why Python?
+# • Python works on different platforms (Windows, Mac, Linux, Raspberry Pi, etc).
+# • Python has a simple syntax similar to the English language.
+# • Python has syntax that allows developers to write programs with fewer lines than some other programming languages.
 
-Variables:
-• Definition: Variables in Python are used to store data that can be referenced and manipulated throughout the program. They act as placeholders for values.
-• Use Case in Real Life: Variables can be used to store user information in a registration form. For example, name, age, and height could store the respective details of a user.
+# ********************************************************************
+
+# Variables:
+# • Definition: Variables in Python are used to store data that can be referenced and manipulated throughout the program. They act as placeholders for values.
+# • Use Case in Real Life: Variables can be used to store user information in a registration form. For example, name, age, and height could store the respective details of a user.
 
 #Assigning values to the Variables
 name = "Jhon Doe"
 age = 30
 height  = 5.9
 
-********************************************************************
+# ********************************************************************
 
-Data Types:
-• Definition: Data types specify the type of data that a variable can hold. Common data types in Python include integers, floats, strings, lists, tuples, dictionaries, and booleans.
-• Use Case in Real Life: Data types are used to model different kinds of information. For example, a dictionary can store user profiles in a social media application where keys are 
-  profile attributes and values are the corresponding data.
+# Data Types:
+# • Definition: Data types specify the type of data that a variable can hold. Common data types in Python include integers, floats, strings, lists, tuples, dictionaries, and booleans.
+# • Use Case in Real Life: Data types are used to model different kinds of information. For example, a dictionary can store user profiles in a social media application where keys are 
+#   profile attributes and values are the corresponding data.
 
 #Integer
 num = 10
@@ -87,7 +88,7 @@ print(coordinates.index(20.0))    #Find index of the element
 print(len(coordinates))    #length of the tuple
 
 #Dictionary
-Person = {"name": "John", "Age": 30}
+person = {"name": "John", "Age": 30}
 
 #Inbuilt func and operations for Dictionary
 print(person.keys())      #Get all keys
@@ -97,7 +98,7 @@ print(person.get("name"))      #Get value of key
 person.update({"height": 180})      #Update height with another dictionary
 person.pop("age")      #Remove Key-value pair by key
 print(person)
-print(len(length))      #Length of the Dictonary
+print(len(person))      #Length of the Dictonary
 
 #Set
 se = {1,2,3,4}
@@ -130,3 +131,9 @@ print(not is_active)      #Logical NOT
 
 
  
+
+
+
+
+
+
