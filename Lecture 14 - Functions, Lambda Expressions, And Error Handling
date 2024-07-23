@@ -1,0 +1,138 @@
+#Functions:
+#Definition: A function is a block of reusable code that performs a specific task. Functions help to modularize code, making it more organized and maintainable.
+#Use Case in Real Life: Functions can be used to calculate the total price of items in a shopping cart, including tax and discounts. This keeps the code clean and organized by separating the calculation
+ # logic from the rest of the application.
+
+
+# Simple Function
+def add_numbers(a,b):
+    return a+b
+# Calling the function
+print(add_numbers(3,5))
+
+# Square using functions through user input
+def square(a):
+    return a**2
+# Calling the function
+a = input("Enter a number: ")
+c = square(a)
+print("c = ",c)
+
+# function using some default parameters
+def greet(name, message = "Hello"):
+    return f"{message}, {name} !!"
+# Calling the function
+print(greet("Bob"))
+print(greet("Alice","Hi"))
+
+# function using variable length arguments
+def sum_all(*args):
+    return sum(args)
+#calling
+print(sum_all(1,2,3,4,5))
+
+# function with keyword args
+def display_info(**kw):
+    for key, value in kw.items():
+        print(f"{key} : {value}")
+# Calling
+display_info(name = "john", Age = 30, City = "Mumbai")
+
+# higher-order function
+def higher_order(func,x,y):
+    return func(x,y)
+def multiply(a,b):
+    return a * b
+# Calling
+print(higher_order(multiply , 4 , 5))
+
+
+
+#Lambda Expressions:
+#Definition: Lambda expressions, also known as anonymous functions, are small, unnamed functions defined using the Lambda keyword. They are often used for short, throwaway functions.
+#Use Case in Real Life: Lambda expressions are commonly used in sorting algorithms where a custom sorting key is needed. For example, sorting a list of tuples by the second element 
+ # can be achieved using a lambda function.
+
+# Simple lambda function
+square = lambda x: x * x
+#calling
+print(square(5))
+
+# lambda function in 'map'
+numbers = [2,3,4,5,6]
+square = list(map(lambda x: x * x, numbers))
+# Calling
+print(square)
+
+#lambda function in 'filter'
+numbers = [1,2,3,4,5]
+even_numbers = list(filter(lambda x: x % 2 == 0, numbers))
+# Calling
+print(even_numbers)
+
+# lambda function in 'sorted'
+students = [("John", 25) , ("Alice", 20) , ("Joe", 23)]
+sorted_students = sorted(students, key = lambda value_index: value_index[1])
+# Calling
+print(sorted_students)
+
+
+
+#Error Handling:
+#Definition: Error handling in Python is done using try, escept, else, and finally blocks. It allows you to handle exceptions gracefully and ensure that the program continues to run.
+#Use Case in Real Life: Error handling is crucial in web applications to handle unexpected situations, such as database connection errors or Invalid user inputs. Proper error handling 
+ # ensures that the application can provide meaningful error messages to users and recover from errors without crashing. 
+
+#Basic Try-except block
+try:
+#code that may rise  an exception
+    result = 10 / 0
+except ZeroDivisionError:
+# Code to handle the error
+    print("Number cannot be zero. Try again!!!")
+
+
+#Try-except-else block
+try:
+#code that may rise  an exception
+    result = 10 / 2
+except ZeroDivisionError:
+# Code to handle the error
+    print("Number cannot be zero. Try again!!!")
+else: 
+#code to run if no exception occurs
+    print("Code executed successfully!!")
+
+  
+#Try-except-finally block
+try:
+#code that may rise  an exception
+    result = 10 / 2
+except ZeroDivisionError:
+# Code to handle the error
+    print("Number cannot be zero. Try again!!!")
+finally: 
+#code to run regardless of any error occur
+    print("Code executed !!")
+
+
+# Handling Multiple Exceptions
+try:
+    a = int(input("Enter a number: "))
+    result = 10 / a
+except ValueError:
+    print("The number entered should be an integer!!")
+except ZeroDivisionError:
+    print("Zero cannot be divided, try again!!")
+else:
+    print(result)
+
+
+#Raising exceptions
+def check_positive(number):
+    if number <= 0:
+        raise ValueError("Number must be Positive")
+try:
+    check_positive(-5)
+except ValueError as e:
+    print(e)
