@@ -1,0 +1,53 @@
+• What is Data Visualization ?
+  Data visualization is the graphical representation of information and data. By using visual elements like charts, graphs, and maps, data visualization tools provide an accessible way to see and understand trends, 
+  outliers, and patterns in data.
+  This practice is crucial in the data science process, as it helps to make data more understandable and actionable for a wide range of users, from business professionals to data scientists.
+
+• Choosing a type of Plot or Graph that is to be used to represent a particular data depends on:
+  i - Use Cases.
+  ii - Type of Data:
+    •  Numerical.
+    •  Categorical.
+
+• Power Bi:
+  Power BI is a Data Visualization and Business Intelligence tool by Microsoft that converts data from different data sources to create various business intelligence reports. Microsoft Power BI makes it easy for 
+  businesses to spot trends, track performance, and make data-driven decisions.
+
+• Plotly:
+  Plotly is an open-source library that can be used for data visualization and understanding data simply and easily. Plotly supports various types of plots like line charts, scatter plots, histograms, box plots, etc.
+• Can be used in Python, R Programming and Matlab.
+• Some Key Features of Plotly:
+-  Interactive Graphs.
+-  Wide - range of charts.
+-  Customization.
+-  Cross - Platform support.
+
+
+```````````````````````````````````````````````````````````````PRINCIPLES OF DATA VISUALIZATION`````````````````````````````````````````````````````````````````
+1 - Principle 1 - Clarity  
+• Avoid Clutter
+• Use clear visual hierarchies
+
+2 - Principle 2 - Accessibility
+• Use Color schemes that are colorblind friendly.
+• Ensure text is readble.
+
+3 - Principle 3 - Accuracy
+• Use appropriate scales and axes.
+• Avoid misleading representations.
+
+4 - Principle 4 - Relevance
+• Easier understandibility and tailor Visualization to the audience.
+• Highlight what's more important.
+
+5 - Principle 5 - Aesthetics
+• Balsnce color and design elements.
+• Use whitespaces effectively.
+
+6 - Principle 6 - Interaction  *******************
+• Examples of Interactive Tools(hover, drill down, etc).
+• Benefits of interaction in exploring data.
+
+7 - Principle 7 - Context
+• keep the "Big Picture" in mind.
+• Compare and contrast data points.

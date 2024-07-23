@@ -1,0 +1,27 @@
+Data Modeling and DAX Basics:
+- Video provides an in-depth understanding of data modeling and DAX basics.
+- Learn to summarize, analyze, and visualize large datasets efficiently.
+
+Python, Data Science, and Machine Learning Course:
+- Master Python, data science, and machine learning through practical projects.
+- Develop in-demand data skills at your own pace.
+
+Power BI Usage:
+- Learn about getting started with Power BI desktop.
+- Understand creating dashboards and reports in Power BI.
+
+Data Skills Development:
+- Enhance data analysis skills for dynamic and insightful results.
+- Transform data analysis using tools demonstrated in the video.
+
+Statistics and Machine Learning:
+- Explore statistics deep dive.
+- Understand major machine learning algorithms.
+
+Projects Included:
+- Building a chatbot is a part of Project 1.
+- Project 2 involves an image classification project.
+
+Course Contents:
+- Includes diverse topics from data science introduction to advanced Excel.
+- Also covers data visualization and data preprocessing concepts.
